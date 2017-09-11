@@ -8,9 +8,9 @@
     <a class="head-nav__link head-nav__link_map" href="/sitemap/">
         <span class="head-nav__desc">Карта сайта</span>
     </a>
-    <? /*<a class="head-nav__link head-nav__link_eye" href="#">
+     <a class="head-nav__link head-nav__link_eye" href="?slow_vision=Y">
         <span class="head-nav__desc">Версия для слабовидящих</span>
-    </a>*/ ?>
+    </a>
     <a class="head-nav__link head-nav__link_print" onclick="window.print()">
         <span class="head-nav__desc">Версия для печати</span>
     </a>
@@ -19,5 +19,5 @@
         '.default',
         [],
         false
-    );*/ ?>
+    ); */?>
 </nav>

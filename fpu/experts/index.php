@@ -1,6 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Экспертный совет");
+if($_SESSION["slow_vision"] == "Y")
+    LocalRedirect(SITE_DIR);
 ?><?$APPLICATION->IncludeComponent("bitrix:news.list", "ekspertnyy-sovet", Array(
 	"ACTIVE_DATE_FORMAT" => "d.m.Y",	// Формат показа даты
 		"ADD_SECTIONS_CHAIN" => "N",	// Включать раздел в цепочку навигации

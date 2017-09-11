@@ -53,7 +53,7 @@ $aMenuLinks = Array(
 		"Фонд промышленности", 
 		"/fpu/", 
 		Array(), 
-		Array("load"=>"Y"), 
+		Array("load"=>"Y", "VISION"=>"FALSE"), 
 		"" 
 	)
 );

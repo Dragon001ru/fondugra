@@ -8,6 +8,8 @@ $APPLICATION->SetTitle("Характеристика промышленност�
 $oAsset->addJs(SITE_TEMPLATE_PATH . '/dist/js/vendor/scrollmagic.js');
 $oAsset->addJs(SITE_TEMPLATE_PATH . '/dist/js/vendor/odometer/odometer.min.js');
 $oAsset->addJs(SITE_TEMPLATE_PATH . '/dist/js/' . $manifest['animateNumbers.js']);
+if($_SESSION["slow_vision"] == "Y")
+    LocalRedirect(SITE_DIR);
 ?>
 
     <div id="anim-first">

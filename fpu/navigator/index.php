@@ -1,6 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Выберите меру поддержки");
+if($_SESSION["slow_vision"] == "Y")
+    LocalRedirect(SITE_DIR);
 ?><?$APPLICATION->IncludeComponent(
 	"bitrix:news", 
 	"page-support-measures", 

@@ -16,5 +16,5 @@ $APPLICATION->SetDirProperty('inner_left_detail', ' detail');
         бизнес-план инвестиционного проекта:
 
     </p><a class="bid" href="http://investugra.ru/rus/cabinet/type-request/invest-request/" target="_blank">Подать
-    заявку<span>на сопровождение инвестиционного проекта</span></a>
+    заявку<span> на сопровождение инвестиционного проекта</span></a>
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
